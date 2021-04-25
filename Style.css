@@ -1,0 +1,37 @@
+#Screen
+{
+    background-image: linear-gradient(to bottom right, purple,rgb(58, 58, 190),rgb(28, 28, 196));
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+#pos
+{
+    background-image: download;
+    border: none;
+    padding-left: 10px;
+    text-align: center;
+    text-shadow: darkorchid;
+    position: relative;
+    color: rgb(212, 90, 90);
+    font-size: 20px;
+
+}
+.btn {
+    background-image: url(download.png);
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border: none;
+    padding-left: 20px;
+    color: purple;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+.btn:hover {
+    background-color: rgb(30, 57, 138);
+  }
