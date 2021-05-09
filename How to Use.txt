@@ -1,0 +1,11 @@
+Usage: python Duplicate_File_Discovery.py folder or python Duplicate_File_Discovery.py folder1 folder2 folder3
+
+Open any Treminal Of your Choice
+I use PyCharm Community edition 
+Steps if you happen to use the same :
+1)Open the location on projects (Home page) after creating a new project
+2)Below click on TERMINAL Bar and hit the following command'
+ ~ ~ python <Your Python file name as saved>.py folder1 folder2 folder3
+
+IMPORTANT POINT:
+-Make Sure there is no space in the naming file path that you have mentioned!
