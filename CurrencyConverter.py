@@ -104,7 +104,7 @@ class CurrencyConverter(App):
         TempSymbolCountryMap = {}
         CountryCurrencyList = []
         CountrySymbolList = []
-        response = requests.get("http://data.fixer.io/api/symbols?access_key=2f0778901994907d0c4a2ed41f522da5")
+        response = requests.get("http://data.fixer.io/api/symbols?access_key=2f0778901994907d0c")
         JSON = response.json()
         if JSON.get("success") == True:
             for code in JSON.get("symbols").keys():
@@ -114,7 +114,7 @@ class CurrencyConverter(App):
                 self.store.put(code, Country=Country, symbols=code)
                 CountrySymbolList.append(code)
                 CountryCurrencyList.append(Country)
-        responseBaseCurrency = requests.get(f"http://data.fixer.io/api/latest?access_key=2f0778901994907d0c4a2ed41f522da5")
+        responseBaseCurrency = requests.get(f"http://data.fixer.io/api/latest?access_key=2f0778901994907d0c")
         JSONBC = responseBaseCurrency.json()
         if JSONBC.get("success") == True:
             for rateCode in JSONBC.get("rates").keys():
